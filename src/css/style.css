@@ -36,6 +36,7 @@ body {
     left: 0;
     width: 100%;
     background: rgba(30, 60, 114, 0.95);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: all 0.3s ease;
@@ -320,8 +321,8 @@ h1 {
     background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
     border-radius: 15px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .col-vantagens{
 display: flex;
