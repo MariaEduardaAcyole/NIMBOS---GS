@@ -141,3 +141,55 @@ window.addEventListener('scroll', () => {
       startSlideShow();
     });
   });
+
+  /* ========================================= */
+/* ========== LÓGICA DO SELETOR DE TEMAS ========= */
+/* ========================================= */
+
+// Seleciona todos os ícones de tema e o elemento body
+const themeIcons = document.querySelectorAll('.theme-icon');
+const body = document.body;
+
+// Função para aplicar um tema
+const applyTheme = (theme) => {
+    // Remove todas as classes de tema existentes do body
+    body.classList.remove('default', 'dark', 'ocean');
+    
+    // Adiciona a nova classe de tema, exceto para o padrão (que não precisa de classe)
+    if (theme !== 'default') {
+        body.classList.add(theme);
+    }
+};
+
+// Função para salvar o tema no armazenamento local do navegador
+const saveTheme = (theme) => {
+    localStorage.setItem('nimbos_theme', theme);
+};
+
+// Adiciona um "ouvinte" de clique para cada ícone
+themeIcons.forEach(icon => {
+    icon.addEventListener('click', () => {
+        // Pega o tema do atributo 'data-theme' do ícone clicado
+        const theme = icon.dataset.theme;
+        
+        // Aplica e salva o tema
+        applyTheme(theme);
+        saveTheme(theme);
+    });
+});
+
+// Função para carregar o tema salvo quando a página é carregada
+const loadTheme = () => {
+    // Verifica se há um tema salvo no localStorage
+    const savedTheme = localStorage.getItem('nimbos_theme');
+    
+    // Se houver um tema salvo, aplica-o. Senão, usa o padrão.
+    if (savedTheme) {
+        applyTheme(savedTheme);
+    } else {
+        applyTheme('default');
+    }
+};
+
+// Executa a função para carregar o tema assim que o script é lido
+loadTheme();

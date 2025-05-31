@@ -7,6 +7,7 @@
     <title>Iniciativa Nimbos - Soluções Inteligentes para Enchentes</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="img/png" href="../NIMBOS---GS/src/assets/img/logonimbos.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -28,7 +29,13 @@
                 <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
                 <li><a href="#solucao" class="nav-link">Solução</a></li>
             </ul>
-
+            <div class="theme-switcher">
+                <<div class="theme-switcher">
+                    <i class="theme-icon fas fa-sun" data-theme="default" title="Tema Padrão"></i>
+                    <i class="theme-icon fas fa-moon" data-theme="dark" title="Tema Escuro"></i>
+                    <i class="theme-icon fas fa-droplet" data-theme="ocean" title="Tema Oceano"></i>
+                </div>
+            </div>
             <div class="nav-toggle" id="nav-toggle">
                 <span></span>
                 <span></span>
@@ -69,7 +76,7 @@
     </section>
 
     <!-- Seção 2: Tecnologias -->
-    <section class="iot-section">
+    <section class="iot-section" id="tecnologias">
   <div class="iot-content">
     <h2>Arduino e IoT Inteligente</h2>
     <p class="descricao">Sensores Arduino monitoram níveis de água e detritos em bueiros continuamente.</p>

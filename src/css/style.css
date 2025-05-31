@@ -561,3 +561,67 @@ h1 {
 .dot.active {
     background-color: #717171;
 }
+/* ========================================= */
+/* ====== ESTILOS DO SELETOR DE TEMAS ====== */
+/* ========================================= */
+
+/* ========================================= */
+/* ====== ESTILOS DO SELETOR DE TEMAS ====== */
+/* ========================================= */
+
+/* Contêiner para os ícones */
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  gap: 18px; /* Espaçamento entre os ícones */
+  margin-left: 20px;
+}
+
+/* Estilo base para cada ícone (usando propriedades de fonte) */
+.theme-icon {
+  font-size: 22px;         /* Define o TAMANHO do ícone */
+  color: var(--branco);    /* Define a COR do ícone */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  opacity: 0.7;            /* Deixa os ícones inativos um pouco transparentes */
+}
+
+/* Efeito ao passar o mouse */
+.theme-icon:hover {
+  transform: scale(1.2);   /* Aumenta o ícone no hover */
+  opacity: 1;              /* Opacidade total no hover */
+}
+
+/* Estilo para o ícone do tema ATIVO */
+.theme-icon.active-theme {
+  opacity: 1;              /* Garante que o ícone ativo tenha opacidade total */
+  color: var(--azul-claro);/* Uma cor de destaque para o ícone ativo */
+  transform: scale(1.1);   /* Um leve aumento para o ícone ativo */
+}
+
+
+/* ========================================= */
+/* ======== DEFINIÇÕES DOS TEMAS =========== */
+/* ========================================= */
+
+/* Tema Escuro */
+body.dark {
+  --azul-escuro: #212529;
+  --azul-medio: #343a40;
+  --azul-claro: #495057;
+  --verde-medio: #6c757d;
+  --verde-claro: #adb5bd;
+  --branco: #e9ecef;
+  --preto: #f8f9fa;
+}
+
+/* Tema Oceano */
+body.ocean {
+  --azul-escuro: #004d40;
+  --azul-medio: #00796b;
+  --azul-claro: #009688;
+  --verde-medio: #4db6ac;
+  --verde-claro: #80cbc4;
+  --branco: #e0f2f1;
+  --preto: #000000;
+}
