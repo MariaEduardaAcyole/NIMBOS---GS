@@ -1,4 +1,3 @@
-// NIMBOS---GS/src/assets/js/quiz.js
 
 // Array de objetos contendo as perguntas do quiz, opções e a resposta correta
 const questions = [

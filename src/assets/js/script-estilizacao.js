@@ -193,4 +193,3 @@ const loadTheme = () => {
 
 // Executa a função para carregar o tema assim que o script é lido
 loadTheme();
-

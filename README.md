@@ -1,5 +1,10 @@
 # ☁️ NIMBOS - Soluções Inteligentes para Enchentes 💧
 
+
+- Maria Eduarda Sousa Acyole de Oliveira `566337`
+- Matheus Goes da Silva `566407`
+- Mayke Santos `562680`
+
 ## 📝 Sobre o Projeto
 
 A Iniciativa NIMBOS visa combater o problema das enchentes urbanas causadas pelo entupimento silencioso de bueiros. Através da implementação de bueiros inteligentes equipados com sensores Arduino e conectividade IoT, buscamos transformar sistemas de drenagem obsoletos em redes monitoradas em tempo real. Nosso objetivo é fornecer dados cruciais para gestores municipais e equipes de manutenção, permitindo ações preventivas e reduzindo os impactos catastróficos dos alagamentos.
