@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
@@ -46,7 +45,6 @@
         </div>
     </nav>
 
-    <!-- Header -->
     <header id="home">
         <div class="rain" id="rain"></div>
         <div class="container">
@@ -58,7 +56,6 @@
         </div>
     </header>
 
-    <!-- Seção 1: O Problema -->
     <section class="section problem" id="problema">
         <div class="container">
             <div class="section-content fade-in">
@@ -76,7 +73,6 @@
         </div>
     </section>
 
-    <!-- Seção 2: Tecnologias -->
     <section class="iot-section" id="tecnologias">
         <div class="iot-content">
             <h2>Arduino e IoT Inteligente</h2>
@@ -92,7 +88,7 @@
                 </div>
                 <div class="tech-card">
                     <div class="tech-icon">📡</div>
-                    <h3>Conectividade LoRa</h3>
+                    <h3>Conectividade WIFI</h3>
                     <p>Transmissão de dados confiável</p>
                 </div>
                 <div class="tech-card">
@@ -102,20 +98,19 @@
                 </div>
                 <div class="tech-card">
                     <div class="tech-icon">🔋</div>
-                    <h3>Energia Solar</h3>
+                    <h3>Bateria interna e Energia Solar</h3>
                     <p>Alimentação sustentável e autônoma</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção 3: Objetivos -->
     <section class="section" id="objetivos">
         <div class="container">
             <div class="section-content fade-in">
                 <div class="section-image">
 
-                    <img src="/NIMBOS---GS/src/assets/img/logonimbos.jpg" alt="Arduino e sensores IoT">
+                    <img src="/NIMBOS---GS/src/assets/img/projeto.png" alt="Arduino e sensores IoT">
                 </div>
                 <div class="section-text">
                     <h2>Bueiros Inteligentes para Todos</h2>
@@ -129,13 +124,12 @@
         </div>
     </section>
 
-    <!-- Seção 4: Público-Alvo -->
     <section class="section" id="publico">
         <div class="container">
             <div class="section-content fade-in">
                 <div class="section-text">
                     <h2>Cidades e Prefeituras</h2>
-                    <p>Gestores municipais obtém dados precisos sobre estado dos bueiros em tempo real.</p>
+                    <p>Gestores municipais obtêm dados precisos sobre estado dos bueiros em tempo real.</p>
                     <p>Equipes de manutenção recebem alertas automáticos para ação preventiva antes dos
                         alagamentos.</p>
                 </div>
@@ -147,7 +141,6 @@
         </div>
     </section>
 
-    <!-- Seção 5: Benefícios -->
     <section class="section benefits" id="beneficios">
         <div class="container">
             <div class="fade-in">
@@ -184,10 +177,7 @@
         </div>
     </section>
 
-    <!-- Seção 6: Dia a Dia -->
-
-    <!-- FORM -->
-    <section class="section form">
+    <section class="section form" id="solucao">
 
         <div class="container-form">
             <h2>Verifique sua região</h2>
@@ -201,8 +191,7 @@
 
             </form>
             <div id="info" class="info">
-                <!-- Resultado do CEP aparece aqui -->
-            </div>
+                </div>
             <div id="mapa" class="mapa">
 
             </div>
@@ -210,18 +199,17 @@
     </section>
 
 
-    <!-- SlideShow -->
     <section class="section slideshow" id="slideshow">
         <div class="container fade-in">
             <h2>Como o Nimbos Atua na Prática</h2>
             <div class="carousel">
                 <div class="carousel-slides">
                     <div class="slide active">
-                        <img src="./src/assets/img/instalacao.jpg" alt="Visualização de instalação">
+                        <img src="./src/assets/img/instalacao.png" alt="Visualização de instalação">
                         <p class="caption">Instalação dos sensores em pontos críticos</p>
                     </div>
                     <div class="slide">
-                        <img src="./src/assets/img/dashboard.png" alt="Visualização de dados em dashboard">
+                        <img src="./src/assets/img/tela.png" alt="Visualização de dados em dashboard">
                         <p class="caption">Monitoramento contínuo via dashboard</p>
                     </div>
                     <div class="slide">
@@ -239,14 +227,18 @@
         </div>
     </section>
 
-    <!-- Quiz -->
     <section class="section quiz">
-        <div class=" container">
-            <h2>Divirta-se no nosso Quiz</h2>
+        <div class="container fade-in">
+            <h2>Divirta-se no nosso Quiz!</h2>
+            <div id="quiz-container">
+                <div id="quiz-question"></div>
+                <div id="quiz-options" class="quiz-options"></div>
+                <button id="quiz-submit" class="cta-button">Próxima Pergunta</button>
+                <div id="quiz-result"></div>
+            </div>
         </div>
     </section>
 
-    <!-- CTA Final -->
     <section class="cta">
         <div class="container">
             <h2>Bueiros Inteligentes para Cidades Mais Seguras</h2>
@@ -258,6 +250,6 @@
     <script src="./src/assets/js/script-estilizacao.js"></script>
 
     <script src="./src/assets/js/apicep.js"></script>
-</body>
+    <script src="./src/assets/js/quiz.js"></script> </body>
 
 </html>
