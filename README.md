@@ -1,9 +1,9 @@
 # ☁️ NIMBOS - Soluções Inteligentes para Enchentes 💧
-
-
 - Maria Eduarda Sousa Acyole de Oliveira `566337`
 - Matheus Goes da Silva `566407`
 - Mayke Santos `562680`
+
+---
 
 ## 📝 Sobre o Projeto
 
@@ -16,7 +16,7 @@ Bueiros urbanos entopem sem aviso, resultando em enchentes devastadoras que caus
 Desenvolvemos um sistema que utiliza:
 * **Sensores Arduino**: Para monitorar continuamente os níveis de água e detritos nos bueiros.
 * **Conectividade IoT (LoRa)**: Para transmitir dados críticos instantaneamente para centrais de controle urbano, garantindo uma comunicação confiável a longas distâncias.
-* **Sensores Ultrassônicos**: Para medição precisa do nível.
+* **Sensores**: Para medição precisa do nível.
 * **Energia Solar**: Para uma alimentação sustentável e autônoma dos dispositivos.
 
 Essa abordagem permite a detecção precoce de obstruções, a realização de manutenção preditiva e a emissão de alertas automáticos para as equipes municipais, transformando a gestão de drenagem urbana.
@@ -29,9 +29,9 @@ Essa abordagem permite a detecção precoce de obstruções, a realização de m
     * `JavaScript`: Lógica interativa, animações, consumo de API e funcionalidades do quiz.
 * **Hardware / IoT (Conceitual)**:
     * `Arduino`: Plataforma de prototipagem para os sensores.
-    * `Sensores Ultrassônicos`: Para medição de nível de água.
+    * `Sensores`: Para medição de nível de água.
     * `Conectividade WIFI`: Para transmissão de dados de longo alcance.
-    * `Bateria interna e Painel Solar`: Para alimentação sustentável.
+    * `Bateria interna e/ou Painel Solar`: Para alimentação sustentável.
 * **APIs**:
     * `ViaCEP`: Utilizada para buscar informações de endereço a partir de um CEP.
 * **Bibliotecas Externas**:
@@ -79,6 +79,7 @@ NIMBOS---GS/
 * `src/assets/js/quiz.js`: Script JavaScript que gerencia a lógica do quiz interativo.
 * `src/assets/js/script-estilizacao.js`: Script JavaScript com funcionalidades de estilização, como animações de scroll, carrossel e troca de temas.
 
+## [Link para o projeto hospedado no github Pages](https://mariaeduardaacyole.github.io/NIMBOS---GS/)
 ## 💻 Como Executar o Projeto
 
 Para executar este projeto em seu ambiente local, siga os passos abaixo:
@@ -94,15 +95,9 @@ Para executar este projeto em seu ambiente local, siga os passos abaixo:
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum problema, sinta-se à vontade para:
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum problema, sinta-se à vontade para nos contatar
 
-1.  Abrir uma `issue` descrevendo a funcionalidade ou o bug.
-2.  Criar um `fork` do projeto.
-3.  Implementar suas mudanças.
-4.  Abrir um `Pull Request` detalhando as alterações.
 
-## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
