@@ -51,26 +51,6 @@ Essa abordagem permite a detecção precoce de obstruções, a realização de m
 
 ## 📁 Estrutura do Projeto
 
-NIMBOS---GS/
-├── index.html
-├── README.md
-└── src/
-├── assets/
-│   ├── img/
-│   │   ├── bueiro-problema.png
-│   │   ├── instalacao.jpg
-│   │   ├── logonimbos.png
-│   │   ├── manutencao.png
-│   │   ├── projeto.png
-│   │   └── tela.png
-│   └── js/
-│       ├── apicep.js
-│       ├── quiz.js
-│       └── script-estilizacao.js
-└── css/
-└── style.css
-
-
 * `index.html`: Página principal do site, contendo a estrutura de todo o conteúdo.
 * `README.md`: Este arquivo, com a documentação do projeto.
 * `src/css/style.css`: Arquivo CSS com a estilização de todas as páginas e temas.
