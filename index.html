@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciativa Nimbos - Soluções Inteligentes para Enchentes</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="img/png" href="../NIMBOS---GS/src/assets/img/logonimbos.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- navegação menus superiores -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="./src/assets/img/logonimbos.png" alt="Nimbos">
+                NIMBOS
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#problema" class="nav-link">Problema</a></li>
+                <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+                <li><a href="#objetivos" class="nav-link">Objetivos</a></li>
+                <li><a href="#publico" class="nav-link">Público</a></li>
+                <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
+                <li><a href="#solucao" class="nav-link">Solução</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <div class="theme-switcher">
+                    <i class="theme-icon fas fa-sun" data-theme="default" title="Tema Padrão"></i>
+                    <i class="theme-icon fas fa-moon" data-theme="dark" title="Tema Escuro"></i>
+                    <i class="theme-icon fas fa-droplet" data-theme="ocean" title="Tema Oceano"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header das gotas de chuva -->
+    <header id="home">
+        <div class="rain" id="rain"></div>
+        <div class="container">
+            <div class="logo">
+                <img src="./src/assets/img/logonimbos.png" alt="Nimbos">
+            </div>
+            <h1>NIMBOS</h1>
+            <p class="subtitle">Bueiros Inteligentes com Arduino</p>
+        </div>
+    </header>
+
+    <!-- seção do problema -->
+    <section class="section problem" id="problema">
+        <div class="container">
+            <div class="section-content fade-in">
+                <div class="section-text">
+                    <h2>Bueiros Obsoletos, Riscos Reais</h2>
+                    <p>Bueiros urbanos entopem silenciosamente, causando enchentes devastadoras em minutos sem aviso
+                        prévio.</p>
+                    <p>Falta de monitoramento em tempo real deixa cidades vulneráveis a alagamentos catastróficos
+                        súbitos.</p>
+                </div>
+                <div class="section-image">
+                    <img src="./src/assets/img/bueiro-problema.png" alt="Bueiro entupido causando alagamento">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção das tecnologias -->
+    <section class="iot-section" id="tecnologias">
+        <div class="iot-content">
+            <h2>Arduino e IoT Inteligente</h2>
+            <p class="descricao">Sensores Arduino monitoram níveis de água e detritos em bueiros continuamente.</p>
+            <p class="descricao">Conectividade IoT transmite dados críticos instantaneamente para centrais de controle
+                urbano.</p>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🔧</div>
+                    <h3>Arduino Sensors</h3>
+                    <p>Detecção de alterações em tempo real</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📡</div>
+                    <h3>Conectividade WIFI</h3>
+                    <p>Transmissão de dados confiável</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">💧</div>
+                    <h3>Sensores Ultrassônicos</h3>
+                    <p>Medição precisa de nível</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🔋</div>
+                    <h3>Bateria interna e Energia Solar</h3>
+                    <p>Alimentação sustentável e autônoma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção dos objetivos -->
+    <section class="section" id="objetivos">
+        <div class="container">
+            <div class="section-content fade-in">
+                <div class="section-image">
+
+                    <img src="/NIMBOS---GS/src/assets/img/projeto.png" alt="Arduino e sensores IoT">
+                </div>
+                <div class="section-text">
+                    <h2>Bueiros Inteligentes para Todos</h2>
+                    <p>Transformar sistemas de drenagem urbana obsoletos em redes inteligentes monitoradas
+                        constantemente.</p>
+                    <p>Prevenir enchentes através de manutenção preditiva e alertas automáticos para equipes
+                        municipais.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção do publico alvo -->
+    <section class="section" id="publico">
+        <div class="container">
+            <div class="section-content fade-in">
+                <div class="section-text">
+                    <h2>Cidades e Prefeituras</h2>
+                    <p>Gestores municipais obtêm dados precisos sobre estado dos bueiros em tempo real.</p>
+                    <p>Equipes de manutenção recebem alertas automáticos para ação preventiva antes dos
+                        alagamentos.</p>
+                </div>
+                <div class="section-image">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Gestão municipal inteligente">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção dos beneficios -->
+    <section class="section benefits" id="beneficios">
+        <div class="container">
+            <div class="fade-in">
+                <div class="section-text" style="text-align: center; color: white;">
+                    <h2>Vantagens dos Bueiros Inteligentes</h2>
+                    <div class="col-vantagens">
+                        <p>Detecção precoce de obstruções evita alagamentos devastadores em centros urbanos
+                            densamente
+                            povoados.</p>
+                        <p>Redução de custos de emergência e manutenção através de monitoramento preventivo
+                            automatizado.
+                        </p>
+                    </div>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>⚡ Detecção Instantânea</h3>
+                        <p>Alertas em tempo real sobre obstruções</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>🔧 Manutenção Preditiva</h3>
+                        <p>Ação preventiva antes dos problemas</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>💰 Economia Municipal</h3>
+                        <p>Redução de custos de emergência</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>🌱 Sustentabilidade</h3>
+                        <p>Energia solar e componentes duráveis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção da soluçao -->
+    <section class="section form" id="solucao">
+
+        <div class="container-form">
+            <h2>Verifique sua região</h2>
+
+            <form id="cepForm">
+                <div class="form-group">
+                    <label for="cep">Digite o CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Ex: 01001-000" required />
+                    <button type="submit" class="button-buscarCEP">Buscar</button>
+                </div>
+
+            </form>
+            <div id="info" class="info">
+            </div>
+            <div id="mapa" class="mapa">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- seção do SlideShow -->
+    <section class="section slideshow" id="slideshow">
+        <div class="container fade-in">
+            <h2>Como o Nimbos Atua na Prática</h2>
+            <div class="carousel">
+                <div class="carousel-slides">
+                    <div class="slide active">
+                        <img src="./src/assets/img/instalacao.png" alt="Visualização de instalação">
+                        <p class="caption">Instalação dos sensores em pontos críticos</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/assets/img/tela.png" alt="Visualização de dados em dashboard">
+                        <p class="caption">Monitoramento contínuo via dashboard</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/assets/img/manutencao.png" alt="Equipe realizando manutenção preventiva">
+                        <p class="caption">Ação rápida da equipe de manutenção</p>
+                    </div>
+                </div>
+
+                <div class="dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção do quiz -->
+    <section class="section quiz">
+        <div class="container fade-in">
+            <h2>Divirta-se no nosso Quiz!</h2>
+            <div id="quiz-container">
+                <div id="quiz-question"></div>
+                <div id="quiz-options" class="quiz-options"></div>
+                <button id="quiz-submit" class="cta-button">Próxima Pergunta</button>
+                <div id="quiz-result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção do rodapé -->
+    <footer>
+        <section class="cta">
+            <div class="container">
+                <h2>Bueiros Inteligentes para Cidades Mais Seguras</h2>
+                <p>Transforme sua cidade com tecnologia Arduino e previna enchentes antes que aconteçam</p>
+                <a href="#" class="cta-button">Solicitar Demonstração</a>
+            </div>
+        </section>
+    </footer>
+
+    <!-- importaçoes dos arquivos java script -->
+    <script src="./src/assets/js/script-estilizacao.js"></script>
+    <script src="./src/assets/js/apicep.js"></script>
+    <script src="./src/assets/js/quiz.js"></script>
+</body>
+
+</html>
